@@ -1,8 +1,12 @@
-<a routerLink="first">first</a>
-<div class="card" style="width:60%; height: 10%;">
+<!-- <a routerLink="first">first</a> -->
+<div class="row">
+
+</div>
+<div class="card " id="c1" style="width:30%; height: 5%;">
+    <h3 align="center">Jewellery</h3>
     <div class="row">
         <div class="col-sm-6" *ngFor="let row of apiInfo">
-            <div class="card" style="width: 100%; height: 99% ; " id="c1">
+            <div class="card container" style="width: 92%; height: 95% ; " id="c2">
                 <img src="{{row.image}}" class="card-img-top" id="img">
                 <p>{{row.title}}</p>
                 <p>{{row.price}}</p>
